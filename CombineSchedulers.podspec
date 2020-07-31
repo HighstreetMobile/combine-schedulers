@@ -12,4 +12,5 @@ Pod::Spec.new do |s|
   s.source_files = [
     'Sources/CombineSchedulers/**/*.{h,m,swift}'
   ]
+  s.weak_frameworks = 'Combine'
 end
